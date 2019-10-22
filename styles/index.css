@@ -1,0 +1,29 @@
+header{
+    padding: 20px;
+    width: 960px;
+}
+
+div#main{
+    display: grid;
+    width: 960px;
+    grid-template-columns: repeat(60,auto);
+}
+
+div.pixel{
+    background-color: rgb(12, 77, 116);
+    height: 16px;
+    width: 16px;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    transition-duration: 1.5s;
+}
+
+div.pixel:hover {
+    background-color: rgb(19, 112, 170);
+    transition-duration: .1s;
+}
+
+div.pixel.colored{
+    transition-duration: 0s;
+    background-color: rgb(255, 208, 0);
+}

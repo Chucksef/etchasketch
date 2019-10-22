@@ -1,0 +1,1 @@
+This project's goal is to create an "etch-a-skech" like website as specified in The Odin Project.
